@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.header {
+    margin-top: 60px;
+}
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.headerTitleSm {
+    position: absolute;
+    font-size: 30px;
+    top: 12%;
+}
+.headerTitleLg {
+    position: absolute;
+    font-size: 180px;
+    top: 11%;
+}
+.headerImg {
+    width: 100%;
+    height: 730px;
+    margin-top: 160px;
+    object-fit: cover;
+}

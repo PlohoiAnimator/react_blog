@@ -1,0 +1,62 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    background:linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ),
+     url('https://i.pinimg.com/originals/f1/47/2f/f1472f334b2df7c0002176ddf26ca638.jpg');
+    background-size: cover;
+}
+.loginTitle {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label {
+    font-size: 20px;
+}
+.loginInput {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 15px 20px;
+    margin: 15px 0px;
+}
+.loginInput::placeholder {
+    color: #a3a3a3;
+}
+.loginRegisterButton {
+    background-color: tomato;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 70px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.loginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color:white;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.loginRegisterButton:disabled{
+    cursor: not-allowed;
+    background: coral;
+}
